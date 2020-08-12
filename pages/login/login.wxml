@@ -1,0 +1,41 @@
+<!--pages/login/login.wxml-->
+<view class="view-1"></view>
+<view class="view-login">
+
+<image src="../../image/tou.png" mode="widthFix" class="image1"/>
+
+<view class="view-user flexview">
+<image  class="userimage imagewi" src="../../image/ums-admin.png" mode="widthFix" />
+<input name="userID" class="userinput cross" placeholder="请输入账号" value="{{user}}" bindinput="inputuser" />
+</view>
+
+<view class="view-pwd flexview">
+<image class="pwdimage imagewi" src="../../image/password.png" mode="widthFix"/>
+<input name="pwdID" class="pwdinput cross" placeholder="请输入密码" value="{{pwd}}" bindinput="inputpwd"/>
+</view>
+
+
+
+<view class="class-login" style="{{loginster}}">
+<view class="login" bindtap="inputlogin" >登录</view>
+<view class="reset" bindtap="inputreset" >重置</view>
+</view>
+
+<view class="class-login" style="{{register}}">
+<view class="login" bindtap="registerlogin" >注册</view>
+<view class="reset" bindtap="registerreset" >重置</view>
+</view>
+
+
+<view class="view-text">
+<text class="text1">登录表示同意 </text>
+<text class="text2">三国使用协议 / 隐私协议</text>
+</view>
+
+<view class="view-register">
+<button size="mini" type="primary" bindtap="registerview">注册</button>
+</view>
+</view>
+
+
+

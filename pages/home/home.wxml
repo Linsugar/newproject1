@@ -1,0 +1,34 @@
+<!--pages/home/home.wxml-->
+<view class="view-homepage">
+
+<view class="view-swiper">
+<swiper class="swi">
+<swiper-item>
+</swiper-item>
+</swiper>
+</view>
+
+<view class="view-title">
+<text>标题</text>
+<text>查看更多</text>
+</view>
+
+<view class="view-scroll">
+
+<scroll-view class="scroll-view" scroll-x scroll-with-animation="true">
+<view class="new-view" wx:for="{{7}}">
+<image src="https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2614997281.jpg" class="scroll-image" />
+<view class="sc-view">
+<text>标题</text>
+<text>星星</text>
+</view>
+</view>
+
+
+</scroll-view>
+
+</view>
+
+
+
+</view>

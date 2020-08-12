@@ -1,0 +1,53 @@
+.view-homepage{
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+  margin-left: 10rpx;
+}
+
+.view-swiper{
+  width: 100vw;
+  height: 20vh;
+  background-color: coral;
+}
+
+
+
+.view-scroll{
+  width: 100vw;
+  height: 25vh;
+  background-color: cornflowerblue;
+}
+.scroll-view{
+  white-space: nowrap;
+  height: 25vh;
+
+}
+
+.scroll-image{
+  border: 1rpx solid green;
+  width: 20vw;
+  height: 18vh;
+  border-radius: 10rpx;
+}
+
+.new-view{
+  display: inline-block;
+  margin: 10rpx;
+}
+
+.sc-view{
+  display: flex;
+  flex-direction: column;
+  font-size: 25rpx;
+}
+
+.view-title{
+  width: 100vw;
+  height: 5vh;
+  margin: 10rpx;
+  border: 1rpx solid greenyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

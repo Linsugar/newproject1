@@ -1,0 +1,89 @@
+.view-1{
+  width: 100vw;
+  height: 15vh;
+}
+
+.view-login{
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.image1{
+  width: 20vw;
+  height: 15vh;
+}
+.cross{
+  width: 50vw;
+  height: 5vh;
+}
+.imagewi{
+  width: 5vw;
+  height: 5vh;
+  padding: 10rpx;
+}
+.flexview{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  border: 1rpx solid yellow;
+}
+.view-user{
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+
+
+.view-pwd{
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+
+
+.class-login{
+  display: flex;
+  flex-direction:row;
+  width: 70vw;
+  height: 5vh;
+  justify-content: space-around;
+}
+.login{
+  flex-grow: 1;
+  border: 1rpx solid green;
+  text-align: center;
+  border-radius: 0rpx 0rpx 0rpx 10rpx;
+  background-color: limegreen;
+  color: white;
+}
+.reset{
+  flex-grow: 1;
+  border: 1rpx solid green;
+  text-align: center;
+  border-radius: 0rpx 0rpx 10rpx 0rpx;
+  background-color: limegreen;
+  color: white;
+
+}
+
+.view-text{
+  position: absolute;
+  bottom: 8vh;
+}
+
+text{
+  font-size: 25rpx;
+}
+
+.text1{
+  color: beige;
+}
+.text2{
+  color: aquamarine;
+}
+
+.view-register{
+  position: absolute;
+  bottom: 0vh;
+}
